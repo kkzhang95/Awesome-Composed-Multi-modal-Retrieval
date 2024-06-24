@@ -35,4 +35,51 @@ This repo is used for recording and tracking recent Composed Multi-modal Retriev
 If you find any work missing or have any suggestions, feel free
 to [pull requests](https://github.com/xinchengshuai/Awesome-Image-Editing/pulls).
 We will add the missing papers to this repo ASAP.
- 
+
+
+
+## Supervised Learning-based CMR (SL-CMR)
+### 1. Data Augmentation Approaches
+| Publication |    Paper Title     |    Guidance Set      | Combination                                                                                                            | Code/Project                                                 |
+|:----:|-----------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|--------------------------------------------------------------|
+| TOG 2023 | [UniTune: Text-Driven Image Editing by Fine Tuning a Diffusion Model on a Single Image](https://arxiv.org/abs/2210.09477) |    text     | $F_{inv}^T+F_{edit}^{Norm}$|[Code]()|
+
+
+### 2. Model Architecture Approaches
+| Publication |    Paper Title     |    Guidance Set      | Combination                                                                                                            | Code/Project                                                 |
+|:----:|-----------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|--------------------------------------------------------------|
+| TOG 2023 | [UniTune: Text-Driven Image Editing by Fine Tuning a Diffusion Model on a Single Image](https://arxiv.org/abs/2210.09477) |    text     | $F_{inv}^T+F_{edit}^{Norm}$|[Code]()|
+
+
+### 3. Loss Optimization Approaches
+| Publication |    Paper Title     |    Guidance Set      | Combination                                                                                                            | Code/Project                                                 |
+|:----:|-----------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|--------------------------------------------------------------|
+| TOG 2023 | [UniTune: Text-Driven Image Editing by Fine Tuning a Diffusion Model on a Single Image](https://arxiv.org/abs/2210.09477) |    text     | $F_{inv}^T+F_{edit}^{Norm}$|[Code]()|
+
+
+
+## Zero-Shot Learning-based CMR (ZSL-CMR)
+### 1. Image-side Transformation Approaches
+| Publication |    Paper Title     |    Guidance Set      | Combination                                                                                                            | Code/Project                                                 |
+|:----:|-----------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|--------------------------------------------------------------|
+| TOG 2023 | [UniTune: Text-Driven Image Editing by Fine Tuning a Diffusion Model on a Single Image](https://arxiv.org/abs/2210.09477) |    text     | $F_{inv}^T+F_{edit}^{Norm}$|[Code]()|
+
+
+
+ ### 2. Text-side Transformation Approaches
+| Publication |    Paper Title     |    Guidance Set      | Combination                                                                                                            | Code/Project                                                 |
+|:----:|-----------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|--------------------------------------------------------------|
+| TOG 2023 | [UniTune: Text-Driven Image Editing by Fine Tuning a Diffusion Model on a Single Image](https://arxiv.org/abs/2210.09477) |    text     | $F_{inv}^T+F_{edit}^{Norm}$|[Code]()|
+
+
+
+ ### 3. Data Generation Assistance Approaches
+| Publication |    Paper Title     |    Guidance Set      | Combination                                                                                                            | Code/Project                                                 |
+|:----:|-----------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|--------------------------------------------------------------|
+| TOG 2023 | [UniTune: Text-Driven Image Editing by Fine Tuning a Diffusion Model on a Single Image](https://arxiv.org/abs/2210.09477) |    text     | $F_{inv}^T+F_{edit}^{Norm}$|[Code]()|
+
+
+ ### 4. External Knowledge Assistance Approaches
+| Publication |    Paper Title     |    Guidance Set      | Combination                                                                                                            | Code/Project                                                 |
+|:----:|-----------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|--------------------------------------------------------------|
+| TOG 2023 | [UniTune: Text-Driven Image Editing by Fine Tuning a Diffusion Model on a Single Image](https://arxiv.org/abs/2210.09477) |    text     | $F_{inv}^T+F_{edit}^{Norm}$|[Code]()|
