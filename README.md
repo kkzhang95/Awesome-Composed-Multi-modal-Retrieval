@@ -36,12 +36,11 @@ If you find any work missing or have any suggestions, feel free
 to [pull requests](https://github.com/xinchengshuai/Awesome-Image-Editing/pulls).
 We will add the missing papers to this repo ASAP.
 
-
+<style> table th:first-of-type { width: 100px; } </style>
 
 ## Supervised Learning-based CMR (SL-CMR)
 ### 1. Data Augmentation Approaches
 #### 1.1 Uncertainty/Noise in data annotation
-| <colgroup span="4"></colgroup> |<colgroup span="10"></colgroup>|<colgroup span="4"></colgroup>|  
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | WACV 2021 | [Compositional learning of image-text query for image retrieval](https://openaccess.thecvf.com/content/WACV2021/papers/Anwaar_Compositional_Learning_of_Image-Text_Query_for_Image_Retrieval_WACV_2021_paper.pdf) |   [Code](https://github.com/ecom-research/ComposeAE)|
