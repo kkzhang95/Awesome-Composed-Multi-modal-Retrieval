@@ -176,6 +176,10 @@ We will add the missing papers to this repo ASAP.
 
 
 ## Application 
-| Publication |    Paper Title     |   Code/Project                                                 |
-|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| ARXIV 2024 | [Word for Person: Zero-shot Composed Person Retrieval](https://arxiv.org/pdf/2311.16515) |   [Code](https://github.com/Delong-liu-bupt/Word4Per)|
+| Publication |  Application |   Paper Title     |   Code/Project                                                 |
+|:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| ARXIV 2023 | Visual Queation Answering  | [VQA4CIR: Boosting Composed Image Retrieval with Visual Question Answering](https://arxiv.org/pdf/2312.12273) |   [Code](https://github.com/chunmeifeng/VQA4CIR)|
+| ARXIV 2024 | Composed Persion-RID | [Word for Person: Zero-shot Composed Person Retrieval](https://arxiv.org/pdf/2311.16515) |   [Code](https://github.com/Delong-liu-bupt/Word4Per)|
+| CVPR 2024 | Composed Video Retrieval  | [Composed Video Retrieval via Enriched Context and Discriminative Embeddings](https://arxiv.org/pdf/2403.16997) |   [Code](https://github.com/OmkarThawakar/composed-video-retrieval)|
+| NAACL 2024 | Image-Text Retrieval | [ComCLIP: Training-Free Compositional Image and Text Matching](https://arxiv.org/abs/2211.13854) |   [Code](https://github.com/eric-ai-lab/ComCLIP)|
+
