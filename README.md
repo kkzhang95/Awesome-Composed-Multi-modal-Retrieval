@@ -149,8 +149,7 @@ We will add the missing papers to this repo ASAP.
 | ARXIV 2023 | [Pretrain like you inference: Masked tuning improves zero-shot composed image retrieval](https://arxiv.org/pdf/2311.07622) |   [Code]()|
 | ICLR 2024 | [Image2Sentence based Asymmetrical Zero-shot Composed Image Retrieval](https://arxiv.org/pdf/2403.01431) |   [Code]()|
 | AAAI 2024 | [Context-I2W: Mapping Images to Context-dependent Words for Accurate Zero-Shot Composed Image Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/28324) |   [Code]()|
-
-
+| ARXIV 2024 | [Spherical Linear Interpolation and Text-Anchoring for Zero-shot Composed Image Retrieval](https://arxiv.org/abs/2405.00571) |   [Code]()|
 
 
 
