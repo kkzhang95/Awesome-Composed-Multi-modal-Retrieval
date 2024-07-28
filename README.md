@@ -43,7 +43,7 @@ We will add the missing papers to this repo ASAP.
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | WACV 2021 | [Compositional learning of image-text query for image retrieval](https://openaccess.thecvf.com/content/WACV2021/papers/Anwaar_Compositional_Learning_of_Image-Text_Query_for_Image_Retrieval_WACV_2021_paper.pdf) |   [Code](https://github.com/ecom-research/ComposeAE)|
 | ARXIV 2022 | [Training and challenging models for text-guided fashion image retrieval](https://arxiv.org/pdf/2204.11004) |   [Code](https://github.com/yahoo/maaf)|
-| ARXIV 2023 | [Ranking-aware uncertainty for text-guided image retrieval](https://arxiv.org/pdf/2308.08131) |   [Code]|
+| ARXIV 2023 | [Ranking-aware uncertainty for text-guided image retrieval](https://arxiv.org/pdf/2308.08131) |   [Code]()|
 | ICLR 2024 | [Composed image retrieval with text feedback via multi-grained uncertainty regularization](https://arxiv.org/pdf/2211.07394) |   [Code](https://github.com/Monoxide-Chen/uncertainty_retrieval)|
 
 #### 1.2 Limited dataset
@@ -59,7 +59,7 @@ We will add the missing papers to this repo ASAP.
 #### 2.1 Design of the visual-linguistic modality combiner
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| CVPR 2019 | [Composing text and image for image retrieval-an empirical odyssey](https://openaccess.thecvf.com/content_CVPR_2019/papers/Vo_Composing_Text_and_Image_for_Image_Retrieval_-_an_Empirical_CVPR_2019_paper.pdf) |   [Code]|
+| CVPR 2019 | [Composing text and image for image retrieval-an empirical odyssey](https://openaccess.thecvf.com/content_CVPR_2019/papers/Vo_Composing_Text_and_Image_for_Image_Retrieval_-_an_Empirical_CVPR_2019_paper.pdf) |   [Code]()|
 | CVPR 2020 | [Image search with text feedback by visiolinguistic attention learning](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Image_Search_With_Text_Feedback_by_Visiolinguistic_Attention_Learning_CVPR_2020_paper.pdf) |   [Code](https://github.com/yanbeic/VAL)|
 | ARXIV 2020 | [Modality-agnostic attention fusion for visual search with text feedback](https://arxiv.org/pdf/2007.00145) |   [Code](https://github.com/yahoo/maaf)|
 | AAAI 2021 | [Trace: Transform aggregate and compose visiolinguistic representations for image search with text feedback](https://www.researchgate.net/profile/Mausoom-Sarkar/publication/344083983_TRACE_Transform_Aggregate_and_Compose_Visiolinguistic_Representations_for_Image_Search_with_Text_Feedback/links/5fea20b2299bf14088562c70/TRACE-Transform-Aggregate-and-Compose-Visiolinguistic-Representations-for-Image-Search-with-Text-Feedback.pdf) |   [Code]()|
