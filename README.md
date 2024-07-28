@@ -43,7 +43,7 @@ We will add the missing papers to this repo ASAP.
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | WACV 2021 | [Compositional learning of image-text query for image retrieval](https://openaccess.thecvf.com/content/WACV2021/papers/Anwaar_Compositional_Learning_of_Image-Text_Query_for_Image_Retrieval_WACV_2021_paper.pdf) |   [Code](https://github.com/ecom-research/ComposeAE)|
 | ARXIV 2022 | [Training and challenging models for text-guided fashion image retrieval](https://arxiv.org/pdf/2204.11004) |   [Code](https://github.com/yahoo/maaf)|
-| ARXIV 2023 | [Ranking-aware uncertainty for text-guided image retrieval](https://arxiv.org/pdf/2308.08131) |   [Code]()|
+| ARXIV 2023 | [Ranking-aware uncertainty for text-guided image retrieval](https://arxiv.org/pdf/2308.08131) |   [Code]|
 | ICLR 2024 | [Composed image retrieval with text feedback via multi-grained uncertainty regularization](https://arxiv.org/pdf/2211.07394) |   [Code](https://github.com/Monoxide-Chen/uncertainty_retrieval)|
 
 #### 1.2 Limited dataset
