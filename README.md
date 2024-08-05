@@ -174,9 +174,27 @@ We will add the missing papers to this repo ASAP. In the following, * denotes th
 
 
 ## Datasets
-| Dataset | Publication |    Paper Title     |   Code/Project                                                 |
+General domain (manual annotation)
+| Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| CIRR | ICCV 2021 | [Image retrieval on real-life images with pre-trained vision-and-language models](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Image_Retrieval_on_Real-Life_Images_With_Pre-Trained_Vision-and-Language_Models_ICCV_2021_paper.pdf) |   [Code](https://github.com/Cuberick-Orion/CIRPLANT)|
+| CIRR | 2021 | [Image retrieval on real-life images with pre-trained vision-and-language models](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Image_Retrieval_on_Real-Life_Images_With_Pre-Trained_Vision-and-Language_Models_ICCV_2021_paper.pdf) |   [Code](https://github.com/Cuberick-Orion/CIRPLANT)|
+| CIRCO | 2023 | [Zero-shot composed image retrieval with textual inversion](https://arxiv.org/abs/2303.15247) |   [Code](https://github.com/miccunifi/SEARLE)|
+
+General domain (machine generation)
+| Dataset | Year |    Paper Title     |   Code/Project                                                 |
+|:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| LaSCo | 2024 | [Data Roaming and Quality Assessment for Composed Image Retrieval](https://arxiv.org/abs/2303.09429) |   [Code](https://github.com/levymsn/LaSCo)|
+| Laion-CIR-Combined | 2024 | [Zero-shot Composed Text-Image Retrieval](https://Arxiv.org/pdf/2306.07272) |   [Code](https://github.com/Code-kunkun/ZS-CIR)|
+| SynthTriplets18M | 2024 | [CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion](https://Arxiv.org/pdf/2303.11916) |   [Code](https://github.com/navervision/CompoDiff)|
+
+Specific domain (fashion, shoes, 3D scenes, etc.)
+| Dataset | Year |    Paper Title     |   Code/Project                                                 |
+|:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| FashionIQ | 2021 | [Fashion iq: A new dataset towards retrieving images by natural language feedback](https://arxiv.org/abs/1905.12794) |   [Code](https://github.com/XiaoxiaoGuo/fashion-iq)|
+| Shoes | 2018 | [Dialog-based Interactive Image Retrieval](https://arxiv.org/abs/1805.00145) |   [Code](https://github.com/XiaoxiaoGuo/fashion-retrieval)|
+| Fashion200k | 2017 | [Automatic attribute discovery and characterization from noisy web data](https://link.springer.com/chapter/10.1007/978-3-642-15549-9_484) |   [Code](https://github.com/xthan/fashion-200k)|
+| CFQ | 2022 | [Training and challenging models for text-guided fashion image retrieval](https://arxiv.org/abs/2204.11004) |   [Code](https://github.com/yahoo/maaf)|
+| CSS | 2018 | [Composing Text and Image for Image Retrieval - An Empirical Odyssey](https://openaccess.thecvf.com/content_CVPR_2019/papers/Vo_Composing_Text_and_Image_for_Image_Retrieval_-_an_Empirical_CVPR_2019_paper.pdf) |   [Code](https://github.com/google/tirg)|
 
 
 ## Evaluation Metrics
