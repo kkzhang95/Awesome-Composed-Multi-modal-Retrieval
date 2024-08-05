@@ -191,10 +191,10 @@ Specific domain (fashion, shoes, 3D scenes, etc.)
 | Dataset | Year |    Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | FashionIQ | 2021 | [Fashion iq: A new dataset towards retrieving images by natural language feedback](https://arxiv.org/abs/1905.12794) |   [Code](https://github.com/XiaoxiaoGuo/fashion-iq)|
-| Shoes | 2018 | [Dialog-based Interactive Image Retrieval](https://arxiv.org/abs/1805.00145) |   [Code](https://github.com/XiaoxiaoGuo/fashion-retrieval)|
-| Fashion200k | 2017 | [Automatic attribute discovery and characterization from noisy web data](https://link.springer.com/chapter/10.1007/978-3-642-15549-9_484) |   [Code](https://github.com/xthan/fashion-200k)|
 | CFQ | 2022 | [Training and challenging models for text-guided fashion image retrieval](https://arxiv.org/abs/2204.11004) |   [Code](https://github.com/yahoo/maaf)|
+| Shoes | 2018 | [Dialog-based Interactive Image Retrieval](https://arxiv.org/abs/1805.00145) |   [Code](https://github.com/XiaoxiaoGuo/fashion-retrieval)|
 | CSS | 2018 | [Composing Text and Image for Image Retrieval - An Empirical Odyssey](https://openaccess.thecvf.com/content_CVPR_2019/papers/Vo_Composing_Text_and_Image_for_Image_Retrieval_-_an_Empirical_CVPR_2019_paper.pdf) |   [Code](https://github.com/google/tirg)|
+| Fashion200k | 2017 | [Automatic attribute discovery and characterization from noisy web data](https://link.springer.com/chapter/10.1007/978-3-642-15549-9_484) |   [Code](https://github.com/xthan/fashion-200k)|
 
 
 ## Evaluation Metrics
