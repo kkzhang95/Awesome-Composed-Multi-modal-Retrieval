@@ -1,13 +1,28 @@
 # Awesome-Composed-Multi-modal-Retrieval
 
-This repo is used for recording and tracking recent Composed Multi-modal Retrieval (CMR) works, including Composed Image Retrieval (CIR) and Composed Video Retrieval (CVR), etc.  
+This repo is used for recording and tracking recent Composed Multi-modal Retrieval (CMR) works, including Composed Image Retrieval (CIR), Composed Video Retrieval (CVR), Composed Person Retrieval (CPR), etc.  
 This repository is still a work in progress. If you find any work missing or have any suggestions, feel free
 to [pull requests](https://github.com/kkzhang95/Awesome-Composed-Multi-modal-Retrieval/pulls). 
 We will add the missing papers to this repo ASAP. In the following, * denotes that the code is not released. 
 
-## Supervised Learning-based CMR (SL-CMR)
-### 1. Data Augmentation Approaches
 
+# What is Composed-Multi-modal-Retrieval (CMR)?
+
+Generally, the evolution of content-based retrieval technology has witnessed the transformation from Unimodal Retrieval (UR) to Cross-modal Retrieval (CR), and then to Composed Multi-modal Retrieval (CMR). Compared with the early-stage unimodal retrieval, which was limited to querying information within the same modality, e.g., image search for images, cross-modal retrieval has achieved remarkable accuracy and widespread application in the present era. This enables the search for semantically relevant content in one modality based on the instance query from another modality, e.g., using text search images or videos, allowing users to make full use of these heterogeneous data. In recent years, composed multi-modal retrieval has emerged as a thriving content-based retrieval technology. Within this technical framework, the system aims to discover images/videos that not only bear resemblance to the given reference image/video but also allow for specific modifications based on the provided textual feedback from the user. In this sense, CMR pioneers an advanced level of interactive and conditional retrieval mechanism, leveraging deep integration of visual and linguistic information. This integration greatly enhances the flexibility and precision of user-expressed search intents, injecting new vitality into domains such as internet search and e-commerce. Consequently, CMR exhibits vast potential and far-reaching impact as the next-generation content-based retrieval engine in real-world application scenarios.
+
+
+# What are the challenges and existing lines of research in CMR?
+
+A core of CMR is that it requires the synergistic understanding and composing of both input vision and language information as the multi-modal query. The earliest closely related studies of CMR are in the field of attribute-based fashion image retrieval, where the key difference is that the textual feedback in attribute-based fashion image retrieval is limited to a single attribute (e.g., 'mini', 'white', 'red'), while CMR is the natural language with multiple words (e.g., 'showing this animal of the input image facing the camera under sunlight'), which is more flexible yet challenging compared to the predefined set of attribute values.  The pioneering CMR works are proposed, where the input query is specified in the form of an image plus some natural language that describes desired modifications to the input image, and led a series of subsequent approaches. Current research in CMR is primarily focused on two main patterns: (1) supervised learning-based CMR (SL-CMR), which focuses on how to design a better combination mechanism of vision and language through supervised training of annotated data, and (2) zero-shot learning-based CMR (ZSL-CMR), which focuses on how to simulate and build a visual-linguistic multi-modal information combination framework without annotated data.
+
+
+## Supervised Learning-based CMR (SL-CMR)
+
+For the combined multi-modal retrieval models based on supervised learning, a notable characteristic is the requirement of annotated triplet data $(I^{r}, T^{r}, I^{t})$, where $I^{r}$ denotes the reference query image, $T^{r}$ denotes the relatively modified text, and $I^{t}$ denotes the ground truth target image. As illustrated in Figure A, for the given inputs of  $I^{r}$ and $T^{r}$, the typical pipeline of an SL-CMR model involves mining what content should be modified in the reference image $I^{r}$ according to the caption $T^{r}$, so as to learn a vison-language compositional embedding that encodes the information required to find the interested target image $T^{r}$. Thus, the main challenges faced by such approaches lie in addressing two issues: "Where to see?", which refers to attending to the content in the reference image that needs change, and "How to change?", which aims to modify the reference image based on the textual information while preserving the remaining information. In recent years, research on SL-CMR has primarily focused on three aspects: (1) data augmentation, focusing on alleviating the difficulty of triplet labeling and the defect of labeling noise; (2) model architecture, focusing on designing a better vision-language combiner via cross-modal feature alignment and fusion strategies, as well as the design of other novel frameworks that can be plugged; (3) loss optimization, focusing on the design of more reasonable feature combination constraints. Although supervised training relying on these carefully labeled data often offers better performance, SL-CMR inherently faces two shortcomings: 1) annotating such triplets is both difficult and labor-intensive, and 2) the supervised approaches trained on the collected limited and specific triplets are also hard for generalization.
+
+
+
+### 1. Data Augmentation Approaches
 
 #### 1.1 Automatic dataset construction
 | Publication |    Paper Title     |   Code/Project                                                 |
@@ -106,6 +121,12 @@ We will add the missing papers to this repo ASAP. In the following, * denotes th
 
 
 ## Zero-Shot Learning-based CMR (ZSL-CMR)
+
+
+Recently, composed multi-modal retrieval based on zero-shot learning has been proposed to address the above limitations. The pipeline of ZSL-CMR models typically follows the structure depicted in Figure B. During the training process, the model is trained solely on easily obtainable image-text pairs, without the need for annotated triplets. Its training process usually revolves around learning the modality transformers, which simulate the combination of visual and linguistic information in testing. As a result, the training and testing phases typically involve different network structures. Thus, the main challenge of ZSL-CMR lies in designing transformation frameworks that are equivalent to supervised learning in the absence of supervision signals, aiming to maximize the zero-shot generalization ability as much as possible. To address this challenge, the academic community has developed strategies across four key aspects: (1) Image-side transformation: this approach focuses on learning the implicit or explicit visual-to-linguistic transformation using images as input. During testing, it converts the reference image into a query that can be integrated with the relative textual information; (2) Text-side transformation: in this approach, text is used as input to simulate image features, constructing a training framework that relies solely on language. During testing, the model directly takes image inputs; (3) Data generation assistance: this type of approach focuses on generating triplet training data through generation tools, facilitating zero-shot construction from the data side; (4) External knowledge assistance: this approach explores the utilization of additional knowledge to enhance details, such as attributes and colors, thereby improving retrieval performance. Despite these efforts, there is currently no comprehensive review that systematically organizes the existing research, challenges, and applications of this emerging field. 
+
+
+
 ### 1. Image-side Transformation Approaches
 #### 1.1 Explicit visual Embedding (Training-free)
 | Publication |    Paper Title     |   Code/Project                                                 |
@@ -171,6 +192,10 @@ Specific domain (fashion, shoes, 3D scenes, etc.)
 
 
 ## Application 
+
+Research in CMR has vast application potential. Despite being a relatively young field, the current focus of this field primarily includes: (1) Composed image retrieval: it has pioneered the combination of image and textual descriptions for retrieval purposes. It enables various tasks based on different textual conditions, such as domain transformation, where images from different stylistic domains can be retrieved; composition of objects/scenes, allowing the addition or modification of objects or scenes during retrieval; and object/attribute manipulation, providing control over the objects or attributes in the retrieval process. These operations have high practical value in domains such as fashion and e-commerce. (2) Composed video retrieval: the user performs such multi-modal search, by querying an image of a particular visual concept and a modification text, to find videos that exhibit similar visual characteristics with the desired modification. This task has many use cases, including but not limited to searching online videos for reviews of a specific product, how-to videos of a tool for specific usages, live events in specific locations, and sports matches of specific players. (3)  Composed person retrieval: person retrieval aims to identify target person images from a large-scale person gallery.  Distinct from existing image-based and text-based person retrieval approaches, in real-world scenarios, both visual and textual information about a specific person is often available. Therefore, the task of jointly utilizing image and text information for target person retrieval facilitates person matching, which has extensive applications in social services and public security.
+
+
 | Publication |  Application |   Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | Arxiv 2023 | Visual Queation Answering  | [VQA4CIR: Boosting Composed Image Retrieval with Visual Question Answering](https://Arxiv.org/pdf/2312.12273) |   [Code](https://github.com/chunmeifeng/VQA4CIR)|
