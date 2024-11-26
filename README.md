@@ -1,9 +1,10 @@
 # Awesome-Composed-Multi-modal-Retrieval
 
 This repo is used for recording and tracking recent Composed Multi-modal Retrieval (CMR) works, including Composed Image Retrieval (CIR), Composed Video Retrieval (CVR), Composed Person Retrieval (CPR), etc.  
+
 This repository is still a work in progress. If you find any work missing or have any suggestions, feel free
 to [pull requests](https://github.com/kkzhang95/Awesome-Composed-Multi-modal-Retrieval/pulls). 
-We will add the missing papers to this repo ASAP. In the following, * denotes that the code is not released. 
+We will add the missing papers to this repo ASAP. In the following, * indicates that the code is not open source yet 
 
 
 # What is Composed-Multi-modal-Retrieval (CMR)?
