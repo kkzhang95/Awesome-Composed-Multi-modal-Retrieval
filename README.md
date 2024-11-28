@@ -229,9 +229,20 @@ Recently, composed multi-modal retrieval based on zero-shot learning has been pr
 
 
 
+ ### 3. Data Generation Assistance Approaches
+| Publication |    Paper Title     |   Code/Project                                                 |
+|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| BMVC 2023 | [Zero-shot composed text-image retrieval](https://Arxiv.org/pdf/2306.07272) |   [Code](https://github.com/Code-kunkun/ZS-CIR)|
+| Arxiv 2023 | [Compodiff: Versatile composed image retrieval with latent diffusion](https://Arxiv.org/pdf/2303.11916) |   [Code](https://github.com/navervision/CompoDiff)|
+| CVPR 2024 \$\dagger\$ | [Visual Delta Generator with Large Multi-modal Models for Semi-supervised Composed Image Retrieval](https://openaccess.thecvf.com/content/CVPR2024/papers/Jang_Visual_Delta_Generator_with_Large_Multi-modal_Models_for_Semi-supervised_Composed_CVPR_2024_paper.pdf) |   -|
+| Arxive 2024 \$\dagger\$ | [HyCIR: Boosting Zero-Shot Composed Image Retrieval with Synthetic Labels](https://arxiv.org/abs/2407.05795) |   -|
+| ICML 2024 \$\dagger\$ | [Improving Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning](https://proceedings.mlr.press/v235/li24s.html) |   [Code](https://github.com/dhg-wei/MCL)|
+| Arxive 2024 \$\dagger\$ | [Pseudo Triplet Guided Few-shot Composed Image Retrieval](https://arxiv.org/abs/2407.06001) |  -|
 
 
- ### 3. External Knowledge Assistance Approaches
+
+
+ ### 4. External Knowledge Assistance Approaches
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | CVPR 2024 | [Knowledge-enhanced dual-stream zero-shot composed image retrieval](https://openaccess.thecvf.com/content/CVPR2024/papers/Suo_Knowledge-Enhanced_Dual-stream_Zero-shot_Composed_Image_Retrieval_CVPR_2024_paper.pdf) |   [Code](https://github.com/suoych/KEDs.)|
