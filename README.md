@@ -65,8 +65,6 @@ For the combined multi-modal retrieval models based on supervised learning, a no
 
 ### 2. Model Architecture Approaches
 #### 2.1 Design of the visual-linguistic modality combiner
-| Publication |    Paper Title     |   Code/Project                                                 |
-|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 
 
 ##### 2.1.1 Coarse-grained multimodal combiner
