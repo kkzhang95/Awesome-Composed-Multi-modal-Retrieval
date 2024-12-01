@@ -39,9 +39,9 @@ For the combined multi-modal retrieval models based on supervised learning, a no
 | WACV 2024 | [Bi-directional Training for Composed Image Retrieval via Text Prompt Learning](https://openaccess.thecvf.com/content/WACV2024/papers/Liu_Bi-Directional_Training_for_Composed_Image_Retrieval_via_Text_Prompt_Learning_WACV_2024_paper.pdf) |   [Code](https://github.com/Cuberick-Orion/Bi-Blip4CIR)|
 | AAAI 2024 | [Data Roaming and Quality Assessment for Composed Image Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/28081) |   [Code](https://github.com/levymsn/LaSCo)|
 | CVPR 2024 | [Visual Delta Generator with Large Multi-modal Models for Semi-supervised Composed Image Retrieval](https://openaccess.thecvf.com/content/CVPR2024/papers/Jang_Visual_Delta_Generator_with_Large_Multi-modal_Models_for_Semi-supervised_Composed_CVPR_2024_paper.pdf) |   -|
-| Arxive 2024 | [HyCIR: Boosting Zero-Shot Composed Image Retrieval with Synthetic Labels](https://arxiv.org/abs/2407.05795) |   -|
+| Arxiv 2024 | [HyCIR: Boosting Zero-Shot Composed Image Retrieval with Synthetic Labels](https://arxiv.org/abs/2407.05795) |   -|
 | ICML 2024 | [Improving Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning](https://proceedings.mlr.press/v235/li24s.html) |   [Code](https://github.com/dhg-wei/MCL)|
-| Arxive 2024 | [Pseudo Triplet Guided Few-shot Composed Image Retrieval](https://arxiv.org/abs/2407.06001) |  -|
+| Arxiv 2024 | [Pseudo Triplet Guided Few-shot Composed Image Retrieval](https://arxiv.org/abs/2407.06001) |  -|
 | ACL 2024 | [VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval](https://aclanthology.org/2024.acl-long.175/) |  [Code](https://github.com/JUNJIE99/VISTA_Evaluation_FineTuning)|
 | IEEE TIP 2024 | [Multimodal Composition Example Mining for Composed Query Image Retrieval](https://ieeexplore.ieee.org/document/10418785) |   -|
 
@@ -172,7 +172,7 @@ For the combined multi-modal retrieval models based on supervised learning, a no
 | TMLR 2023 | [Candidate set re-ranking for composed image retrieval with dual multi-modal encoder](https://Arxiv.org/pdf/2305.16304) |   [Code](https://github.com/Cuberick-Orion/Candidate-Reranking-CIR)|
 | ACM TOMM 2023 | [Amc: Adaptive multi-expert collaborative network for text-guided image retrieval](https://dl.acm.org/doi/abs/10.1145/3584703) |   [Code](https://github.com/KevinLight831/AMC)|
 | WACV 2024 | [Bi-directional Training for Composed Image Retrieval via Text Prompt Learning](https://openaccess.thecvf.com/content/WACV2024/papers/Liu_Bi-Directional_Training_for_Composed_Image_Retrieval_via_Text_Prompt_Learning_WACV_2024_paper.pdf) |   [Code](https://github.com/Cuberick-Orion/Bi-Blip4CIR)|
-| Arxive 2024 \$\dagger\$ | [Pseudo Triplet Guided Few-shot Composed Image Retrieval](https://arxiv.org/abs/2407.06001) |  -|
+| Arxiv 2024 \$\dagger\$ | [Pseudo Triplet Guided Few-shot Composed Image Retrieval](https://arxiv.org/abs/2407.06001) |  -|
 
 
 
@@ -183,7 +183,7 @@ For the combined multi-modal retrieval models based on supervised learning, a no
 | ACM TOMM 2022 | [Tell, Imagine, and Search: End-to-end Learning for Composing Text and Image to Image Retrieval](https://dl.acm.org/doi/10.1145/3478642) |   -|
 | ICLR 2022 | [Artemis: Attention-based retrieval with text-explicit matching and implicit similarity](https://Arxiv.org/pdf/2203.08101) |   [Code](https://github.com/naver/artemis)|
 | CVPR 2023 | [FAME-ViL: Multi-Tasking Vision-Language Model for Heterogeneous Fashion Tasks](https://openaccess.thecvf.com/content/CVPR2023/papers/Han_FAME-ViL_Multi-Tasking_Vision-Language_Model_for_Heterogeneous_Fashion_Tasks_CVPR_2023_paper.pdf) |   [Code](https://github.com/BrandonHanx/FAME-ViL)|
-| Arxive 2023 | [Decompose Semantic Shifts for Composed Image Retrieval](https://arxiv.org/abs/2309.09531) |   -|
+| Arxiv 2023 | [Decompose Semantic Shifts for Composed Image Retrieval](https://arxiv.org/abs/2309.09531) |   -|
 | SIGIR 2024 | [Simple but Effective Raw-Data Level Multimodal Fusion for Composed Image Retrieval](https://arxiv.org/abs/2404.15875) |   -|
 
 
@@ -266,7 +266,7 @@ Recently, composed multi-modal retrieval based on zero-shot learning has been pr
 | CVPR 2024 | [Language-only Efficient Training of Zero-shot Composed Image Retrieval](https://Arxiv.org/abs/2312.01998) |   [Code](https://github.com/navervision/lincir)|
 | CVPR 2024 | [Composed Video Retrieval via Enriched Context and Discriminative Embeddings](https://arxiv.org/abs/2403.16997) |   [Code](https://github.com/OmkarThawakar/composed-video-retrieval)|
 | ICML 2024 | [Improving Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning](https://proceedings.mlr.press/v235/li24s.html) |   [Code](https://github.com/dhg-wei/MCL)|
-| Arxive 2024 | [Reducing Task Discrepancy of Text Encoders for Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2406.09188) |   -|
+| Arxiv 2024 | [Reducing Task Discrepancy of Text Encoders for Zero-Shot Composed Image Retrieval](https://arxiv.org/abs/2406.09188) |   -|
 
 
  ### 3. External Knowledge Assistance Approaches
@@ -289,9 +289,9 @@ Although zero-shot combined multimodal retrieval does not rely on labeled data, 
 | AI 2023 | [CLIP-based Composed Image Retrieval with Comprehensive Fusion and Data Augmentation](https://dl.acm.org/doi/10.1007/978-981-99-8388-9_16) |   -|
 | AAAI 2024 | [Data Roaming and Quality Assessment for Composed Image Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/28081) |   [Code](https://github.com/levymsn/LaSCo)|
 | CVPR 2024 | [Visual Delta Generator with Large Multi-modal Models for Semi-supervised Composed Image Retrieval](https://openaccess.thecvf.com/content/CVPR2024/papers/Jang_Visual_Delta_Generator_with_Large_Multi-modal_Models_for_Semi-supervised_Composed_CVPR_2024_paper.pdf) |   -|
-| Arxive 2024 | [HyCIR: Boosting Zero-Shot Composed Image Retrieval with Synthetic Labels](https://arxiv.org/abs/2407.05795) |   -|
+| Arxiv 2024 | [HyCIR: Boosting Zero-Shot Composed Image Retrieval with Synthetic Labels](https://arxiv.org/abs/2407.05795) |   -|
 | ICML 2024 | [Improving Context Understanding in Multimodal Large Language Models via Multimodal Composition Learning](https://proceedings.mlr.press/v235/li24s.html) |   [Code](https://github.com/dhg-wei/MCL)|
-| Arxive 2024 | [Pseudo Triplet Guided Few-shot Composed Image Retrieval](https://arxiv.org/abs/2407.06001) |  -|
+| Arxiv 2024 | [Pseudo Triplet Guided Few-shot Composed Image Retrieval](https://arxiv.org/abs/2407.06001) |  -|
 | ACL 2024 | [VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval](https://aclanthology.org/2024.acl-long.175/) |  [Code](https://github.com/JUNJIE99/VISTA_Evaluation_FineTuning)|
 
 
