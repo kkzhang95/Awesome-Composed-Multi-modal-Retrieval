@@ -373,5 +373,5 @@ Research in CMR has vast application potential. Despite being a relatively young
 
 
 ## Copyright Notice
-All content in this repository, including but not limited to text, images, and code, is the intellectual property of [Kun Zhang](kkzhang@ustc.edu.cn) and is protected under applicable copyright laws. Since this repository contains content unpublished, any further reproduction, distribution, display, or performance of this content is strictly prohibited without prior written permission from [Kun Zhang](kkzhang@ustc.edu.cn).
+All content in this repository, including but not limited to text, images, and code, is the intellectual property of [Kun Zhang](kkzhang@ustc.edu.cn) and is protected under applicable copyright laws. Since this repository contains content unpublished, any further reproduction, distribution, display, or performance of this content is strictly prohibited without prior written permission from [Kun Zhang](kkzhang@ustc.edu.cn). (Jun 23, 2024)
 
