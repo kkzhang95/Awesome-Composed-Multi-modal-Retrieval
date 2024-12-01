@@ -277,7 +277,8 @@ Recently, composed multi-modal retrieval based on zero-shot learning has been pr
 
 
 ## Semi-Supervised Learning-based CMR (SSL-CMR)
-Although zero-shot combined multimodal retrieval does not rely on labeled data, its performance is often lower than supervised training, which brings obstacles to the application of the model. To alleviate this problem, some works have proposed a semi-supervised combined multimodal learning paradigm based on automatically generated triple data.
+Although zero-shot combined multimodal retrieval does not rely on labeled data, its performance is often lower than supervised training, which brings obstacles to the application of the model. To alleviate this problem, some works have proposed a semi-supervised combined multimodal learning paradigm based on automatically generated triple data. In this setting, relying on the relatively easy-to-obtain image-text data, existing SSL-CMR work mainly generates triplet data from two aspects: (1) generating images, such as editing the input reference image according to the conditional text to create the target image; (2) generating text, such as describing the difference caption between the two input images. By generating these triplet data, the model can not only capture the combination of vision and language more accurately during learning, but also avoid the limitations of cumbersome annotation. Although the generated data may be noisy, it also combines the advantages of supervision and zero-shot learning, which is a promising direction.
+
 
 
 | Publication |    Paper Title     |   Code/Project                                                 |
