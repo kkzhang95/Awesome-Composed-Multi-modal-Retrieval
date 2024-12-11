@@ -48,9 +48,10 @@ For the combined multi-modal retrieval models based on supervised learning, a no
 
 
 
-#### 1.2 Denoising of data annotation
+#### 1.2 Uncertainty/Noise in data annotation
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| ICCV 2023 | [Zero-shot composed image retrieval with textual inversion](https://openaccess.thecvf.com/content/ICCV2023/papers/Baldrati_Zero-Shot_Composed_Image_Retrieval_with_Textual_Inversion_ICCV_2023_paper.pdf) |   [Code](https://github.com/miccunifi/SEARLE)|
 | Arxiv 2022 | [Training and challenging models for text-guided fashion image retrieval](https://Arxiv.org/pdf/2204.11004) |   [Code](https://github.com/yahoo/maaf)|
 | Arxiv 2023 | [Ranking-aware uncertainty for text-guided image retrieval](https://Arxiv.org/pdf/2308.08131) |   -|
 | ACM MM 2023 | [Target-Guided Composed Image Retrieval](https://Arxiv.org/pdf/2309.01366) |   -|
