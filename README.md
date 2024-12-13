@@ -49,7 +49,7 @@ For the combined multi-modal retrieval models based on supervised learning, a no
 
 
 
-#### 1.2 Uncertainty/Noise in data annotation
+#### 1.2 Uncertainty/Noise in data
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | ICCV 2023 | [Zero-shot composed image retrieval with textual inversion](https://openaccess.thecvf.com/content/ICCV2023/papers/Baldrati_Zero-Shot_Composed_Image_Retrieval_with_Textual_Inversion_ICCV_2023_paper.pdf) |   [Code](https://github.com/miccunifi/SEARLE)|
