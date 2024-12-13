@@ -43,6 +43,7 @@ For the combined multi-modal retrieval models based on supervised learning, a no
 | Arxiv 2024 | [Pseudo Triplet Guided Few-shot Composed Image Retrieval](https://arxiv.org/abs/2407.06001) |  -|
 | ACL 2024 | [VISTA: Visualized Text Embedding For Universal Multi-Modal Retrieval](https://aclanthology.org/2024.acl-long.175/) |  [Code](https://github.com/JUNJIE99/VISTA_Evaluation_FineTuning)|
 | IEEE TIP 2024 | [Multimodal Composition Example Mining for Composed Query Image Retrieval](https://ieeexplore.ieee.org/document/10418785) |   -|
+| IEEE TPAMI 2024 | [Self-Training Boosted Multi-Faceted Matching Network for Composed Image Retrieval](https://arxiv.org/abs/2305.09979) |   -|
 
 
 
@@ -58,7 +59,6 @@ For the combined multi-modal retrieval models based on supervised learning, a no
 | AI 2023 | [CLIP-based Composed Image Retrieval with Comprehensive Fusion and Data Augmentation](https://dl.acm.org/doi/10.1007/978-981-99-8388-9_16) |   -|
 | ICLR 2024 | [Composed image retrieval with text feedback via multi-grained uncertainty regularization](https://Arxiv.org/pdf/2211.07394) |   [Code](https://github.com/Monoxide-Chen/uncertainty_retrieval)|
 | KBS 2024 | [Collaborative group: Composed image retrieval via consensus learning from noisy annotations](https://arxiv.org/abs/2306.02092) |   -|
-| IEEE TPAMI 2024 | [Self-Training Boosted Multi-Faceted Matching Network for Composed Image Retrieval](https://arxiv.org/abs/2305.09979) |   -|
 | AAAI 2024 | [Data Roaming and Quality Assessment for Composed Image Retrieval](https://ojs.aaai.org/index.php/AAAI/article/view/28081) |   [Code](https://github.com/levymsn/LaSCo)|
 
 
