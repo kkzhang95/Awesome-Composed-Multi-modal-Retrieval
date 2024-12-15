@@ -93,7 +93,6 @@ For the combined multi-modal retrieval models based on supervised learning, a no
 | ECCV 2022 | [Fashionvil: Fashion-focused vision-and-language representation learning](https://Arxiv.org/pdf/2207.08150) |   [Code](https://github.com/BrandonHanx/mmf)|
 | WACV 2022 | [SAC: Semantic attention composition for text-conditioned image retrieval](https://openaccess.thecvf.com/content/WACV2022/papers/Jandial_SAC_Semantic_Attention_Composition_for_Text-Conditioned_Image_Retrieval_WACV_2022_paper.pdf) |   -|
 | IEEE TMM 2022 | [Heterogeneous Feature Alignment and Fusion in Cross-Modal Augmented Space for Composed Image Retrieval](https://ieeexplore.ieee.org/document/9899752) |   -|
-| IEEE-TMM 2023 | [Enhance Composed Image Retrieval via Multi-Level Collaborative Localization and Semantic Activeness Perception](https://ieeexplore.ieee.org/document/10120671) |  -|
 | UniReps 2023 | [NEUCORE: Neural Concept Reasoning for Composed Image Retrieval](https://proceedings.mlr.press/v243/zhao24a/zhao24a.pdf) |   [Code](https://github.com/VisionLanguageLab/NEUCORE)|
 | IEEE TMM 2024 | [Negative-Sensitive Framework With Semantic Enhancement for Composed Image Retrieval](https://ieeexplore.ieee.org/document/10493853) |   -|
 
@@ -116,9 +115,10 @@ For the combined multi-modal retrieval models based on supervised learning, a no
 | MMAsia 2021 | [Hierarchical Composition Learning for Composed Query Image Retrieval](https://dl.acm.org/doi/10.1145/3469877.3490601) |   -|
 | Sci. Rep. 2022 | [Composed query image retrieval based on triangle area triple loss function and combining CNN with transformer](https://www.nature.com/articles/s41598-022-25340-w) |  -|
 | ACM MM 2023 | [Target-Guided Composed Image Retrieval](https://Arxiv.org/pdf/2309.01366) |   -|
-| CVPR-W 2023 | [Language Guided Local Infiltration for Interactive Image Retrieval](https://openaccess.thecvf.com/content/CVPR2023W/IMW/papers/Huang_Language_Guided_Local_Infiltration_for_Interactive_Image_Retrieval_CVPRW_2023_paper.pdf) |   -|
+| CVPRW 2023 | [Language Guided Local Infiltration for Interactive Image Retrieval](https://openaccess.thecvf.com/content/CVPR2023W/IMW/papers/Huang_Language_Guided_Local_Infiltration_for_Interactive_Image_Retrieval_CVPRW_2023_paper.pdf) |   -|
 | IEEE TIP 2023 | [Composed Image Retrieval via Cross Relation Network With Hierarchical Aggregation Transformer](https://ieeexplore.ieee.org/document/10205526) |   [Code](https://github.com/yan9qu/crn)|
 | IEEE TMM 2023 | [Multi-Modal Transformer With Global-Local Alignment for Composed Query Image Retrieval](https://ieeexplore.ieee.org/document/10012544) |   -|
+| IEEE-TMM 2023 | [Enhance Composed Image Retrieval via Multi-Level Collaborative Localization and Semantic Activeness Perception](https://ieeexplore.ieee.org/document/10120671) |  -|
 | IEEE TCSVT 2024 | [Multi-Grained Attention Network With Mutual Exclusion for Composed Query-Based Image Retrieval](https://ieeexplore.ieee.org/document/10225420) |   [Code](https://github.com/CFM-MSG/Code_MANME)|
 | IEEE TPAMI 2024 | [Self-Training Boosted Multi-Faceted Matching Network for Composed Image Retrieval](https://arxiv.org/abs/2305.09979) |   -|
 
