@@ -1,6 +1,9 @@
-# Awesome-Composed-Multi-modal-Retrieval
+# Composed Multi-modal Retrieval: A Survey of Approaches and Applications
+
 
 This repo is used for recording and tracking recent Composed Multi-modal Retrieval (CMR) works, including Composed Image Retrieval (CIR), Composed Video Retrieval (CVR), Composed Person Retrieval (CPR), etc.  
+
+The survey can be found [here](https://www.researchgate.net/publication/389504546_Composed_Multi-modal_Retrieval_A_Survey_of_Approaches_and_Applications).
 
 This repository is still a work in progress. If you find any work missing or have any suggestions, feel free
 to [pull requests](https://github.com/kkzhang95/Awesome-Composed-Multi-modal-Retrieval/pulls). 
