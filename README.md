@@ -342,9 +342,63 @@ Specific domain (fashion, shoes, 3D scenes, etc.)
 
 ## Application 
 
-Research in CMR has vast application potential. Despite being a relatively young field, the current focus of this field primarily includes: (1) Composed image retrieval: it has pioneered the combination of image and textual descriptions for retrieval purposes. It enables various tasks based on different textual conditions, such as domain transformation, where images from different stylistic domains can be retrieved; composition of objects/scenes, allowing the addition or modification of objects or scenes during retrieval; and object/attribute manipulation, providing control over the objects or attributes in the retrieval process. These operations have high practical value in domains such as fashion and e-commerce. (2) Composed video retrieval: the user performs such multi-modal search, by querying an image of a particular visual concept and a modification text, to find videos that exhibit similar visual characteristics with the desired modification. This task has many use cases, including but not limited to searching online videos for reviews of a specific product, how-to videos of a tool for specific usages, live events in specific locations, and sports matches of specific players. (3)  Composed person retrieval: person retrieval aims to identify target person images from a large-scale person gallery.  Distinct from existing image-based and text-based person retrieval approaches, in real-world scenarios, both visual and textual information about a specific person is often available. Therefore, the task of jointly utilizing image and text information for target person retrieval facilitates person matching, which has extensive applications in social services and public security.
+<!--Research in CMR has vast application potential. Despite being a relatively young field, the current focus of this field primarily includes: (1) Composed image retrieval: it has pioneered the combination of image and textual descriptions for retrieval purposes. It enables various tasks based on different textual conditions, such as domain transformation, where images from different stylistic domains can be retrieved; composition of objects/scenes, allowing the addition or modification of objects or scenes during retrieval; and object/attribute manipulation, providing control over the objects or attributes in the retrieval process. These operations have high practical value in domains such as fashion and e-commerce. (2) Composed video retrieval: the user performs such multi-modal search, by querying an image of a particular visual concept and a modification text, to find videos that exhibit similar visual characteristics with the desired modification. This task has many use cases, including but not limited to searching online videos for reviews of a specific product, how-to videos of a tool for specific usages, live events in specific locations, and sports matches of specific players. (3)  Composed person retrieval: person retrieval aims to identify target person images from a large-scale person gallery.  Distinct from existing image-based and text-based person retrieval approaches, in real-world scenarios, both visual and textual information about a specific person is often available. Therefore, the task of jointly utilizing image and text information for target person retrieval facilitates person matching, which has extensive applications in social services and public security.-->
+
+Research in CMR has vast application potential. 
+It can be broadly categorized based on application scenarios and image domain differences, including domains as fashion and e-commerce images, natural images, videos, remote sensing images, person images, sketch images, and interactive conversation. The specific application can be personalized product shopping, media search, event discovery, environmental monitoring, law enforcement, customer service bots, and so on. In summary, CMR represents a paradigm shift in search systems by integrating visual and textual modalities. These systems enable fine-grained, context-aware, and user-centric searches across diverse domains, offering significant improvements in both retrieval accuracy and user satisfaction.
 
 
+ ### (1,2) Composed Fashion Image Retrieval and Composed Natural Image Retrieval
+Since most of the existing methods in CMR field involve these two applications, they are not listed here. Please refer to Tables 1-7 in the survey for details.
+
+
+ ### (3) Composed Video Retrieval
+| Publication |  Application |   Paper Title     |   Code/Project                                                 |
+|:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| CVPR 2024 | Composed Video Retrieval  | [Composed Video Retrieval via Enriched Context and Discriminative Embeddings](https://Arxiv.org/pdf/2403.16997) |   [Code](https://github.com/OmkarThawakar/composed-video-retrieval)|
+| AAAI 2024 | Composed Video Retrieval  | [CoVR: Learning Composed Video Retrieval from Web Video Captions](https://arxiv.org/abs/2308.14746) |   [Code](https://imagine.enpc.fr/~ventural/covr/)|
+| TPAMI 2024 |Composed Video Retrieval  | [CoVR-2: Automatic Data Construction for Composed Video Retrieval](https://arxiv.org/abs/2308.14746) |   [Code](https://imagine.enpc.fr/~ventural/covr/)|
+| ECCV 2024 |Composed Video Retrieval  | [EgoCVR: An Egocentric Benchmark for Fine-Grained Composed Video Retrieval](https://arxiv.org/abs/2407.16658) |   [Code](https://github.com/ExplainableML/EgoCVR/)|
+| Arxiv 2024 |Composed Video Retrieval  | [Localizing Events in Videos with Multimodal Queries](https://arxiv.org/abs/2406.10079) |   [Code]()|
+
+
+ ### (4) Composed Remote Sensing Image Retrieval
+| Publication |  Application |   Paper Title     |   Code/Project                                                 |
+|:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| IGARSS 2024 | Composed Remote Sensing Image Retrieval  | [Composed Image Retrieval for Remote Sensing](https://arxiv.org/abs/2405.15587) |   [Code](https://github.com/billpsomas/rscir)|
+| TGRS 2024 | Composed Remote Sensing Image Retrieval  | [Scene Graph-Aware Hierarchical Fusion Network for Remote Sensing Image Retrieval With Text Feedback](https://ieeexplore.ieee.org/document/10537211/) |   [Code]()|
+
+
+
+ ### (5) Composed Person Retrieval
+| Publication |  Application |   Paper Title     |   Code/Project                                                 |
+|:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| Arxiv 2024 | Composed Persion-RID | [Automatic Synthetic Data and Fine-grained Adaptive Feature Alignment for Composed Person Retrieval](https://arxiv.org/abs/2311.16515) |   [Code](https://github.com/Delong-liu-bupt/Composed_Person_Retrieval)|
+
+
+
+ ### (6) Composed Sketch-based Image Retrieval
+| Publication |  Application |   Paper Title     |   Code/Project                                                 |
+|:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| CVPR 2024 | Sketch-Text Retrieval | [You’ll Never Walk Alone: A Sketch and Text Duet for Fine-Grained Image Retrieval](https://Arxiv.org/abs/2211.13854) |   [Code](https://github.com/eric-ai-lab/ComCLIP)|
+
+
+ ### (7) Composed Sketch-based Image Retrieval
+| Publication |    Paper Title     |   Code/Project                                                 |
+|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+| NeurIPS 2018 | [Dialog-based interactive image retrieval](https://arxiv.org/abs/1805.00145) |  -|
+| NeurIPS 2019 | [Drill-down: Interactive Retrieval of Complex Scenes using Natural Language Queries](https://dl.acm.org/doi/10.5555/3454287.3454525) |  -|
+| MM 2021 | [Deconfounded and Explainable Interactive Vision-Language Retrieval of Complex Scenes](https://dl.acm.org/doi/10.1145/3474085.3475366) |  -|
+| SIGIR 2021 | [Conversational Fashion Image Retrieval via Multiturn Natural Language Feedback](https://arxiv.org/abs/2106.04128) |  -|
+| NeurIPS 2023 | [Chatting Makes Perfect: Chat-based Image Retrieval](https://arxiv.org/abs/2305.20062) |   [Code](https://github.com/levymsn/ChatIR)|
+| ICCV 2023 | [FashionNTM: Multi-turn Fashion Image Retrieval via Cascaded Memory](https://openaccess.thecvf.com/content/ICCV2023/papers/Pal_FashionNTM_Multi-turn_Fashion_Image_Retrieval_via_Cascaded_Memory_ICCV_2023_paper.pdf) | -|
+| MM 2023 | [Conversational Composed Retrieval with Iterative Sequence Refinement](https://dl.acm.org/doi/10.1145/3581783.3611885) | -|
+| MMW 2023 | [Fashion-GPT: Integrating LLMs with Fashion Retrieval System](https://dl.acm.org/doi/10.1145/3607827.3616844) | -|
+| Arxiv 2023 | [VQA4CIR: Boosting Composed Image Retrieval with Visual Question Answering](https://Arxiv.org/pdf/2312.12273) |   [Code](https://github.com/chunmeifeng/VQA4CIR)|
+| Arxiv 2024 | [Leveraging Large Language Models for Multimodal Search](https://arxiv.org/abs/2404.15790) |  -|
+
+
+<!--
 | Publication |  Application |   Paper Title     |   Code/Project                                                 |
 |:----:|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | Arxiv 2023 | Visual Queation Answering  | [VQA4CIR: Boosting Composed Image Retrieval with Visual Question Answering](https://Arxiv.org/pdf/2312.12273) |   [Code](https://github.com/chunmeifeng/VQA4CIR)|
@@ -354,21 +408,7 @@ Research in CMR has vast application potential. Despite being a relatively young
 | CVPR 2024 |Composed Video Retrieval  | [Composed Video Retrieval via Enriched Context and Discriminative Embeddings](https://arxiv.org/abs/2403.16997) |   [Code](https://github.com/OmkarThawakar/composed-video-retrieval)|
 | NAACL 2024 | Image-Text Retrieval | [ComCLIP: Training-Free Compositional Image and Text Matching](https://Arxiv.org/abs/2211.13854) |   [Code](https://github.com/eric-ai-lab/ComCLIP)|
 | CVPR 2024 | Sketch-Text Retrieval | [You’ll Never Walk Alone: A Sketch and Text Duet for Fine-Grained Image Retrieval](https://Arxiv.org/abs/2211.13854) |   [Code](https://github.com/eric-ai-lab/ComCLIP)|
-
-
-
-
-## Related Work 
- ### Interactive Retrieval
-| Publication |    Paper Title     |   Code/Project                                                 |
-|:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
-| NeurIPS 2019 | [Drill-down: Interactive Retrieval of Complex Scenes using Natural Language Queries](https://dl.acm.org/doi/10.5555/3454287.3454525) |  -|
-| MM 2021 | [Deconfounded and Explainable Interactive Vision-Language Retrieval of Complex Scenes](https://dl.acm.org/doi/10.1145/3474085.3475366) |  -|
-| NeurIPS 2023 | [Chatting Makes Perfect: Chat-based Image Retrieval](https://arxiv.org/abs/2305.20062) |   [Code](https://github.com/levymsn/ChatIR)|
-
-
-
-
+-->
 
 
 
