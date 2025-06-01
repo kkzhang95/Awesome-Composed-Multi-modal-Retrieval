@@ -383,7 +383,7 @@ Since most of the existing methods in CMR field involve these two applications, 
 | CVPR 2024 | Sketch-Text Retrieval | [You’ll Never Walk Alone: A Sketch and Text Duet for Fine-Grained Image Retrieval](https://Arxiv.org/abs/2211.13854) |   [Code](https://github.com/eric-ai-lab/ComCLIP)|
 
 
- ### (7) Composed Sketch-based Image Retrieval
+ ### (7) Interactive/Conversational Retrieval
 | Publication |    Paper Title     |   Code/Project                                                 |
 |:----:|-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
 | NeurIPS 2018 | [Dialog-based interactive image retrieval](https://arxiv.org/abs/1805.00145) |  -|
