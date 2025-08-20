@@ -3,7 +3,7 @@
 
 This repo is used for recording and tracking recent Composed Multi-modal Retrieval (CMR) works, including Composed Image Retrieval (CIR), Composed Video Retrieval (CVR), Composed Person Retrieval (CPR), etc.  
 
-The survey can be found [here](https://www.researchgate.net/publication/389504546_Composed_Multi-modal_Retrieval_A_Survey_of_Approaches_and_Applications).
+The survey can be found [here](https://arxiv.org/abs/2503.01334).
 
 This repository is still a work in progress. If you find any work missing or have any suggestions, feel free
 to [pull requests](https://github.com/kkzhang95/Awesome-Composed-Multi-modal-Retrieval/pulls). 
@@ -435,8 +435,15 @@ ICR has significant applications across various domains, including e-commerce, f
 | Multi-turn FashionIQ | 2021 | [Conversational Fashion Image Retrieval via Multiturn Natural Language Feedback](https://arxiv.org/abs/2106.04128) |   -|
 
 
+## Reference
+If you find this survey helpful, please cite the following paper:
 
-
+@article{zhang2025composed,
+  title={Composed Multi-modal Retrieval: A Survey of Approaches and Applications},
+  author={Zhang, Kun and Li, Jingyu and Li, Zhe and Zhang, Jingjing, and et al.},
+  journal={arXiv preprint arXiv:2503.01334},
+  year={2025}
+}
 
 
 ## Copyright Notice
